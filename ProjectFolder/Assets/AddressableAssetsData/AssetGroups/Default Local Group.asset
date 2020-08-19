@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: e2ca7095c1a022c49a69ac3fcf3b7649
+  m_SerializeEntries:
+  - m_GUID: 05fbea07e6eb1a940ba63b0cfc7d8011
+    m_Address: Assets/Scenes/TrackParts/TrackPart-3-Goal.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_mainAssetType: 
+  - m_GUID: 0fe703c5f8e12e249b5265ccc0fea2c1
+    m_Address: Assets/Scenes/TrackParts/TrackPart-0.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_mainAssetType: 
+  - m_GUID: 57b891d67ccf05c409d53b708d75caf7
+    m_Address: Assets/Scenes/TrackParts/TrackPart-2.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_mainAssetType: 
+  - m_GUID: babc5424f28dcd94fb79d0bb1423f1c7
+    m_Address: Assets/Scenes/TrackParts/TrackPart-1.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_mainAssetType: 
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: bb61206394002aa4f8009c483f23af1b, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 48b9be2d3bde4ff43a306fac5b53b32e, type: 2}
+    - {fileID: 11400000, guid: 83e75790feedcc84291e6c78dd2f8b10, type: 2}
