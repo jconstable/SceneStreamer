@@ -40,7 +40,7 @@ Your new feature should be as user-friendly as possible, with the audience being
 artists. Feel free to change anything in the project that you like: code, GameObject structure, level
 layout, project structure, etc.
 
-Return project submissions by creating a branch of this repository, and sharing your new branch's URL.
+Return project submissions by creating a fork of this repository, and sharing your new branch's URL.
 
 Supply a summary of the work you performed along with your new zip file. Items to mention
 should include:
