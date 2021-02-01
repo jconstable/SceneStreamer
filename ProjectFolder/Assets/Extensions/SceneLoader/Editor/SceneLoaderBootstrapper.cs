@@ -36,13 +36,13 @@ namespace Unity.Extensions.SceneLoading
         {
             var settings = AddressableAssetSettingsDefaultObject.Settings;
             var sceneLoaderInstanceCacheField =
-                typeof(SceneLoader).GetField("InstanceCache", BindingFlags.Instance | BindingFlags.NonPublic);
+                typeof(SceneLoader).GetField("m_instanceCache", BindingFlags.Instance | BindingFlags.NonPublic);
             var sceneLoaderOriginProperty =
-                typeof(SceneLoader).GetProperty("Origin", BindingFlags.Instance | BindingFlags.Public);
+                typeof(SceneLoader).GetField("m_origin", BindingFlags.Instance | BindingFlags.NonPublic);
             var sceneLoaderGlobalCache =
-                typeof(SceneLoader).GetField("GlobalCache", BindingFlags.Static | BindingFlags.NonPublic);
+                typeof(SceneLoader).GetField("s_globalCache", BindingFlags.Static | BindingFlags.NonPublic);
             var sceneLoaderStatusProperty =
-                typeof(SceneLoader).GetProperty("Status", BindingFlags.Instance | BindingFlags.Public);
+                typeof(SceneLoader).GetField("m_status", BindingFlags.Instance | BindingFlags.NonPublic);
 
             var addressableScenes = new List<Scene>();
             for (var i = 0; i < SceneManager.sceneCount; i++)
